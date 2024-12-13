@@ -73,4 +73,8 @@ public class Hangman {
     public boolean isGameOver(){
         return currentState == COUNT_STAGES - 1;
     }
+
+    public int getCurrentState(){
+        return currentState;
+    }
 }
