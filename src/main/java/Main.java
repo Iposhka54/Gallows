@@ -1,3 +1,7 @@
+import model.Hangman;
+import service.Game;
+import service.WordGenerator;
+
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;

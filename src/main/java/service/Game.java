@@ -1,3 +1,8 @@
+package service;
+
+import model.GameState;
+import model.Hangman;
+
 import java.util.*;
 
 public final class Game {
