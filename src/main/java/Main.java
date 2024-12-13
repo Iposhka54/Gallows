@@ -38,6 +38,7 @@ public class Main {
         List<String> lastHangmanState = Hangman.hangmanState.get(LAST_HANGMAN_STAGE);
         //Counter for print left sight menu
         int currentLine = 0;
+        System.out.println();
         System.out.println(lastHangmanState.get(currentLine++));
         System.out.println(lastHangmanState.get(currentLine++));
         System.out.println(lastHangmanState.get(currentLine++) + " 1. Начать игру");
